@@ -2,7 +2,7 @@
 
 namespace ObjectMappers.NestedTypeMapping;
 
-internal class Address
+public class Address
 {
     public string AddressLine1 { get; set; } = null!;
     public string City { get; set; } = null!;

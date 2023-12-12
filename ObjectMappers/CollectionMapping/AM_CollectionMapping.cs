@@ -3,7 +3,7 @@
 
 namespace ObjectMappers.CollectionMapping;
 
-internal class AM_CollectionMapping
+public class AM_CollectionMapping
 {
     public static IMapper Mapper = new MapperConfiguration(cfg => cfg.CreateMap<User, UserDTO>()).CreateMapper();
 

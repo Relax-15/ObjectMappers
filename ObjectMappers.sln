@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMappers", "ObjectMappers\ObjectMappers.csproj", "{F40B188E-42FA-4E39-B8E6-4E12A9198636}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMappers.Benchmark", "ObjectMappers.Benchmark\ObjectMappers.Benchmark.csproj", "{53082BE8-4F75-4CE4-8BFE-8332D6CD1C45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F40B188E-42FA-4E39-B8E6-4E12A9198636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F40B188E-42FA-4E39-B8E6-4E12A9198636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F40B188E-42FA-4E39-B8E6-4E12A9198636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53082BE8-4F75-4CE4-8BFE-8332D6CD1C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53082BE8-4F75-4CE4-8BFE-8332D6CD1C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53082BE8-4F75-4CE4-8BFE-8332D6CD1C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53082BE8-4F75-4CE4-8BFE-8332D6CD1C45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
