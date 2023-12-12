@@ -2,7 +2,7 @@
 
 
 namespace ObjectMappers.NestedTypeMapping;
-internal class Mapster_NestedTypeMapping
+public class Mapster_NestedTypeMapping
 {
     public static UserDTO Map(User source)
     {

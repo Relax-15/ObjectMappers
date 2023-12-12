@@ -5,7 +5,7 @@ using ObjectMappers.NestedTypeMapping;
 
 namespace ObjectMappers.DataGenerators;
 
-internal class NestedTypeMappingDataGenerator
+public class NestedTypeMappingDataGenerator
 {
     public static List<User> GetSources(int count = 1000)
     {

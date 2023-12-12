@@ -2,7 +2,7 @@
 
 namespace ObjectMappers.NestedTypeMapping;
 
-internal class AM_NestedTypeMapping
+public class AM_NestedTypeMapping
 {
     public static IMapper mapper = new MapperConfiguration(cfg =>
         {
